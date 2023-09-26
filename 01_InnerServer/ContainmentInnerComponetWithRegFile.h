@@ -13,7 +13,7 @@ class IDivision :public IUnknown
         virtual HRESULT __stdcall DivisionOfTwoIntegers(int,int,int*)=0;
 };
 
-// CLSID_MultiplicationDivision {91C2E08B-5BB8-4453-AEB6-1C2D8B03BF7B}
+/// CLSID_MultiplicationDivision {91C2E08B-5BB8-4453-AEB6-1C2D8B03BF7B}
 const CLSID CLSID_MultiplicationDivision ={
 0x91c2e08b, 0x5bb8, 0x4453, 0xae, 0xb6, 0x1c, 0x2d, 0x8b, 0x3, 0xbf, 0x7};
 
